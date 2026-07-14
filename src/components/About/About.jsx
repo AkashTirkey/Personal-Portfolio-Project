@@ -2,8 +2,8 @@ import "./About.css"
 import {
   FaCode,
   FaReact,
-  FaLaptopCode,
-  FaLightbulb,
+  // FaLaptopCode,
+  // FaLightbulb,
 } from "react-icons/fa"
 const About = () => {
   return (
@@ -30,7 +30,7 @@ const About = () => {
             and turning ideas into polished web experiences.
           </p>
 
-        <div className="about-btns">
+        <div className="about-buttons">
           <button className="primary-btn">
             Contact Me
           </button>
@@ -78,7 +78,7 @@ const About = () => {
               <p>Always exploring modern Frontend Technologies</p>
             </div>
           </div>
-          
+
         </div>
       </div>
     </section>

@@ -1,5 +1,5 @@
 import "./Navbar.css"
-import {HiOutlineMailAlt3} from "react-icons/hi"
+import { HiOutlineBars3 } from "react-icons/hi2";
 
 const Navbar = () => {
   return (
@@ -16,8 +16,8 @@ const Navbar = () => {
             </ul>
 
         <div className="menu-icon">
-            <HiOutlineMailAlt3/>
-        </div>
+  <HiOutlineBars3 />
+</div>
         
     </nav>
   )
