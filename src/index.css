@@ -1,7 +1,7 @@
 :root{
     /* backgrounds */
-    --bg-color:#0A192F;
-    --surface-color:#112240;
+     --bg-color:#081423;
+    --surface-color:#162B45;
 
     /* primary accent */
     --primary:#3B82F6;
@@ -40,4 +40,42 @@
     --radius-lg:50px;
 
 
+}
+
+/* CSS Reset */
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  background-color:var(--bg-color);
+  color:var(--text);
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+
+#root{
+  min-height:100vh;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  font-family: inherit;
+  border: none;
+  outline: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
 }
