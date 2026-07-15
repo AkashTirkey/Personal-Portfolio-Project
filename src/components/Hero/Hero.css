@@ -7,4 +7,17 @@
     align-items: center;
 
     text-align: center;
+    color:var(--text);
+}
+
+.hero h1{
+    color:var(-text);
+}
+
+.hero p{
+    color:var(--text-secondary);
+}
+
+.hero span{
+    color:var(--primary);
 }

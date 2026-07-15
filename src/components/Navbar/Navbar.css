@@ -14,13 +14,13 @@ z-index: 1000;
 }
 
 .logo h2{
-    /* color:white; */
+    color:var(--text);
     font-size: 28px;
 
 }
 
 .logo span{
-    color:#8b5cf6;
+    color:var(--primary);
 }
 
 .nav-links{
@@ -30,17 +30,17 @@ z-index: 1000;
 }
 
 .nav-links a{
-    color:#d4d4d8;
+    color:var(--text-secondary);
     text-decoration: none;
-    /* transition:3s; */
+    transition:var(-transition)
 }
 
 .nav-links a:hover{
-    color:blue;
+    color:var(--primary);
 }
 
 .menu-icon{
- color:black;
+ color: var(--text);
  font-size: 28px;
  cursor: pointer;   
 }

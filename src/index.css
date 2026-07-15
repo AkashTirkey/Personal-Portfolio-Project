@@ -1,0 +1,43 @@
+:root{
+    /* backgrounds */
+    --bg-color:#0A192F;
+    --surface-color:#112240;
+
+    /* primary accent */
+    --primary:#3B82F6;
+    --primary-hover:#2563EB;
+
+    /* secondary Accent */
+    --secondary:#60A5FA;
+
+    /* text */
+    --text:#F8FAFC;
+    --text-secondary:#94A3B8;
+
+    /* Borders */
+      --border: rgba(255,255,255,0.08);
+
+    /* Shadow */
+    --shadow: 0 10px 30px rgba(59,130, 246, .25);
+    
+    
+    /* 
+    Background: --bg-color
+    cards:      --surface-color
+    buttons,links: --primary
+    button hover: --primary-hover
+    icons:        --secondary
+    headings :    --text
+    paragraphs:   --text-secondary
+    */
+
+    /* transition */
+    --transition: all 0.3s ease;
+
+    /* border radius */
+    --radius-sm:8px;
+    --radius-md:16px;
+    --radius-lg:50px;
+
+
+}
